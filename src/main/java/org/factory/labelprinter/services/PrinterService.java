@@ -42,6 +42,7 @@ public class PrinterService {
         if (printerResponse.isEmpty()) {
             throw new EmptyInputException("The input is empty. Please input a non-empty string or type \"exit\" to quit te program:" + System.lineSeparator());
         }
+
         // Regular expression to match characters not between 'a' and 'm'. It was decided to report all non-valid
         // characters, including whitespaces and special characters as faulty.
         final String errorRegex = "[^a-m]";
