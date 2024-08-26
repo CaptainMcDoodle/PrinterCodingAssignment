@@ -40,7 +40,7 @@ public class PrinterService {
     // Method name printerError was chosen over printer_error to stay true to java naming conventions.
     public static String printerError(final String printerResponse) throws EmptyInputException{
         if (printerResponse.isEmpty()) {
-            throw new EmptyInputException("The input is empty. Please input a non-empty string or type \"exit\" to quit te program:" + System.lineSeparator());
+            throw new EmptyInputException("The input is empty. Please input a non-empty string or type \"exit\" to quit the program:" + System.lineSeparator());
         }
 
         // Regular expression to match characters not between 'a' and 'm'. It was decided to report all non-valid
