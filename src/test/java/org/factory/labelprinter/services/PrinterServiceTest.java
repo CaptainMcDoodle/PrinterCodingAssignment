@@ -1,7 +1,6 @@
-package org.factory.labelprinter;
+package org.factory.labelprinter.services;
 
 import org.factory.labelprinter.exceptions.EmptyInputException;
-import org.factory.labelprinter.services.PrinterService;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
