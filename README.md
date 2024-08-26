@@ -1,0 +1,2 @@
+The code is pre-built. If you want to run the program from the command line, cd to the project root directory.
+The .jar file in the /target folder is executable using the "java -jar target/PrinterCodingAssignment-1.0-SNAPSHOT.jar" command. 

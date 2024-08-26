@@ -1,0 +1,4 @@
+target/*
+!target/PrinterCodingAssignment-1.0-SNAPSHOT.jar
+.idea/
+
