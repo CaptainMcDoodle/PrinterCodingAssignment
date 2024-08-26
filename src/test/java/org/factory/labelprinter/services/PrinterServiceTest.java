@@ -21,7 +21,7 @@ class PrinterServiceTest {
 
     @Test
     public void printerErrorTest_emptyString() {
-        assertThrows(EmptyInputException.class, () -> PrinterService.printerError(""), "0/0");
+        assertThrows(EmptyInputException.class, () -> PrinterService.printerError(""));
 
     }
 
