@@ -25,7 +25,7 @@ public class PrinterService {
                 try {
                      errorPercentage = printerError(input);
                 } catch (final Exception e) {
-                    System.out.println(e.getMessage());
+                    System.out.println(e.getMessage() + System.lineSeparator());
                     continue;
                 }
 
@@ -40,7 +40,7 @@ public class PrinterService {
     // Method name printerError was chosen over printer_error to stay true to java naming conventions.
     public static String printerError(final String printerResponse) throws EmptyInputException{
         if (printerResponse.isEmpty()) {
-            throw new EmptyInputException("The input is empty. Please input a non-empty string or type \"exit\" to quit the program:" + System.lineSeparator());
+            throw new EmptyInputException("The input is empty. Only non-empty strings are allowed.");
         }
 
         // Regular expression to match characters not between 'a' and 'm'. It was decided to report all non-valid
